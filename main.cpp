@@ -20,7 +20,7 @@ void sort_numbers (std::vector<int> &nums) {
 	// Sort the numbers until we reach the end of the vector.
 	for (int i = 0; i < k - 1; ++i) { 
 		
-		// Boolean 'tswap' by default is false. It becomes true when something is swapped.
+		// Boolean 'has_been_swapped' by default is false. It becomes true when something is swapped.
 		bool has_been_swapped = false;
 		
 		/*
@@ -32,11 +32,11 @@ void sort_numbers (std::vector<int> &nums) {
 				/* 
 				* If the item in location 'j' is greater than
 				* the item in the location one more than 'j',
-				* swap the two and make tswap true.
+				* swap the two and make 'has_been_swapped' true.
 				*/
 				if (nums[j] > nums[j+1]) {
 					arr_swap(nums[j], nums[j + 1]);
-					tswap = true;
+					has_been_swapped = true;
 				}
 		}
 		
