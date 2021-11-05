@@ -58,10 +58,10 @@ int main(int argc, char **argv) {
 		// Declare nums vector.	
 		std::vector<int> nums;
 
-    // Ask the user each number 'count' times.
+    		// Ask the user each number 'count' times.
 		for(int i = 0; i < count; i++) {
 			int temp = 0;
-      		std::cout << "Number " << i+1 << ": " ;
+      std::cout << "Number " << i+1 << ": " ;
 			std::cin >> temp;
       
       // Insert the number into nums.
