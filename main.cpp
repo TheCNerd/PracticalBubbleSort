@@ -21,7 +21,7 @@ void sort_numbers (std::vector<int> &nums) {
 	for (int i = 0; i < k - 1; ++i) { 
 		
 		// Boolean 'tswap' by default is false. It becomes true when something is swapped.
-		bool tswap = false;
+		bool has_been_swapped = false;
 		
 		/*
 		* Sort items while j is less than k-i (so that
@@ -41,7 +41,7 @@ void sort_numbers (std::vector<int> &nums) {
 		}
 		
 		// Break if there aren't any swaps.
-		if(tswap == false) {
+		if(has_been_swapped == false) {
 			break;
 		}
 	} 
