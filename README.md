@@ -1,4 +1,6 @@
 # Practical Bubble Sort
+**UPDATE: I'm going to be porting this to C and Rust soon.**
+
 A more realistic scenario for sorting numbers.
 
 A modified version of the school version I made, this can sort unlimited numbers. 
